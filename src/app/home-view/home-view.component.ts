@@ -4,7 +4,7 @@ import { UserRegistrationComponent } from '../user-registration/user-registratio
 import { MatDialog } from '@angular/material/dialog';
 
 @Component({
-  selector: 'app-home-page',
+  selector: 'app-home-view',
   templateUrl: './home-view.component.html',
   styleUrls: ['./home-view.component.scss']
 })

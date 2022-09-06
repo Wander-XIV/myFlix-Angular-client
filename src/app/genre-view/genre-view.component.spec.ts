@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { GenreViewComponent } from './genre-view.component';
 
 describe('GenreViewComponent', () => {

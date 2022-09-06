@@ -16,11 +16,8 @@ import { UserRegistrationComponent } from './user-registration/user-registration
 import { UserLoginComponent } from './user-login/user-login.component';
 import { MovieViewComponent } from './movie-view/movie-view.component';
 import { HomeViewComponent } from './home-view/home-view.component';
-
 import { RouterModule, Routes } from '@angular/router';
-
 schemas: [CUSTOM_ELEMENTS_SCHEMA];
-
 import { MatIconModule } from '@angular/material/icon';
 import { DirectorViewComponent } from './director-view/director-view.component';
 import { GenreViewComponent } from './genre-view/genre-view.component';

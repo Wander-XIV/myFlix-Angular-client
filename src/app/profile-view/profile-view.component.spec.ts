@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { ProfileViewComponent } from './profile-view.component';
 
 describe('ProfileViewComponent', () => {
