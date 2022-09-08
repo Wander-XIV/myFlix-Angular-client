@@ -5,7 +5,7 @@ import { Observable, throwError } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 //api url
-const apiUrl = 'https://myflix-db14.herokuapp.com/movies';
+const apiUrl = 'https://myflix-db14.herokuapp.com/';
 const token = localStorage.getItem('token');
 const username = localStorage.getItem('username');
 
@@ -184,7 +184,7 @@ export class FetchApiDataService {
       console.table(error);
     }
     return throwError(
-      'Something bad happened; please try again later.'
+      'Something went wrong, please try again.'
     );
   }
 }
