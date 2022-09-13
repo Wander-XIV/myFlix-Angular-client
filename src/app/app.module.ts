@@ -14,8 +14,8 @@ import { FormsModule } from '@angular/forms';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { UserRegistrationComponent } from './user-registration/user-registration.component';
 import { UserLoginComponent } from './user-login/user-login.component';
-import { MovieViewComponent } from './movie-view/movie-view.component';
-import { HomeViewComponent } from './home-view/home-view.component';
+import { MovieCardComponent } from './movie-card/movie-card.component';
+import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { RouterModule, Routes } from '@angular/router';
 schemas: [CUSTOM_ELEMENTS_SCHEMA];
 import { MatIconModule } from '@angular/material/icon';
@@ -27,8 +27,8 @@ import { MovieSynopsisComponent } from './movie-synopsis/movie-synopsis.componen
 import { NavbarComponent } from './navbar/navbar.component';
 
 const appRoutes: Routes = [
-  { path: 'welcome', component: HomeViewComponent },
-  { path: 'movies', component: MovieViewComponent },
+  { path: 'welcome', component: WelcomePageComponent },
+  { path: 'movies', component: MovieCardComponent },
   { path: 'profile', component: ProfileViewComponent },
   { path: '', redirectTo: 'welcome', pathMatch: 'prefix' },
 ];
@@ -38,8 +38,8 @@ const appRoutes: Routes = [
     AppComponent,
     UserRegistrationComponent,
     UserLoginComponent,
-    MovieViewComponent,
-    HomeViewComponent,
+    MovieCardComponent,
+    WelcomePageComponent,
     DirectorViewComponent,
     GenreViewComponent,
     ProfileViewComponent,
