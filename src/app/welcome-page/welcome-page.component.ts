@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { MovieCardComponent } from '../movie-card/movie-card.component';
 import { UserRegistrationComponent } from '../user-registration/user-registration.component';
 import { UserLoginComponent } from '../user-login/user-login.component';
 
@@ -32,6 +32,12 @@ export class WelcomePageComponent implements OnInit {
     this.dialog.open(UserLoginComponent, {
       // Assign dialog width
       width: '280px',
+    });
+  }
+
+  openMoviesDialog(): void {
+    this.dialog.open(MovieCardComponent, {
+      width: '500px'
     });
   }
 }
